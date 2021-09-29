@@ -10,7 +10,7 @@ cd ~/Downloads
 bash ./Miniconda2-py27_4.8.3-Linux-x86_64.sh
 
 # Add miniconda to your PATH
-echo 'export PATH="~/miniconda/bin:$PATH"' >>~/.bash_profile
+echo 'export PATH="~/miniconda2/bin:$PATH"' >>~/.bash_profile
 source ~/.bash_profile
 
 # Configure Conda to use Astroconda channel
