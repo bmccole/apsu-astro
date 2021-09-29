@@ -4,7 +4,7 @@
 wget https://repo.anaconda.com/miniconda/Miniconda2-py27_4.8.3-Linux-x86_64.sh -P ~/Downloads/
 
 # Change to Downloads directory
-cd Downloads/
+cd ~/Downloads
 
 # Execute the installer
 bash ./Miniconda2-py27_4.8.3-Linux-x86_64.sh
