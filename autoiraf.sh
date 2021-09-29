@@ -7,7 +7,7 @@ wget https://repo.anaconda.com/miniconda/Miniconda2-py27_4.8.3-Linux-x86_64.sh -
 cd Downloads/
 
 # Execute the installer
-bash Miniconda2-py27_4.8.3-Linux-x86_64.sh
+bash ./Miniconda2-py27_4.8.3-Linux-x86_64.sh
 
 # Add miniconda to your PATH
 echo 'export PATH="~/miniconda/bin:$PATH"' >>~/.bash_profile
