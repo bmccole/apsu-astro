@@ -22,7 +22,7 @@ sudo apt install -y libc6:i386 libz1:i386 libncurses5:i386 libbz2-1.0:i386 libuu
 conda create -n iraf27 python=2.7 iraf-all pyraf-all stsci
 
 # Create iraf shortcut script
-printf '#!/bin/bash\n \n module load anaconda2\n \n source activate iraf27\n \n ds9 &\n \n xgterm -bg black -fg green -sb -title "IRAF" -e "ecl" &' ~/iraf
+printf '#!/bin/bash\n \n module load anaconda2\n \n source activate iraf27\n \n ds9 &\n \n xgterm -bg black -fg green -sb -title "IRAF" -e "ecl" &' > ~/iraf
 
 # Make iraf script executable
 sudo chmod u+x ~/iraf
