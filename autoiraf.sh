@@ -1,7 +1,7 @@
 #!/bin/bash
 
-#Copyright (C) 2021  Bambi A. McCole
-#email msbam@msbam.space
+# Copyright (C) 2021  Bambi A. McCole
+# email: msbam@msbam.space
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
