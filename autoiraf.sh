@@ -42,7 +42,7 @@ sudo apt install libc6:i386 libz1:i386 libncurses5:i386 libbz2-1.0:i386 libuuid1
 conda create -n iraf27 python=2.7 iraf-all pyraf-all stsci
 
 # Create IRAF shortcut script
-printf '#!/bin/bash\n \n module load miniconda2\n \n source activate iraf27\n \n ds9 &\n \n xgterm -bg black -fg green -sb -title "IRAF" -e "ecl" &' > ~/iraf
+printf '#!/bin/bash\n \n #Copyright (C) 2021 Bambi A. McCole\n #GNU GPLv3 https://www.gnu.org/licenses/\n #email: msbam@msbam.space\n module load miniconda2\n \n source activate iraf27\n \n ds9 &\n \n xgterm -bg black -fg green -sb -title "IRAF" -e "ecl" &' > ~/iraf
 
 # Change to home directory
 cd ~/
