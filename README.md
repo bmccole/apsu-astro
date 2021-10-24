@@ -1,6 +1,6 @@
 # apsu-astro
 
-The purpose of this script is to automate installation of Miniconda2, IRAF, PyRAF, and STScI for the purposes of Austin Peay State University's Department of Physics, Astronomy, and Engineering (CoSTEM).
+The purpose of this script is to automate installation of Miniconda2, IRAF, PyRAF, and STScI for the purposes of Austin Peay State University's Department of Physics, Engineering, and Astronomy (CoSTEM).
 
 The APSU Astronomy lab, specifically, runs Ubuntu. Commands are tailored for Ubuntu in autoiraf.sh.
 The fedautoiraf.sh file is altered strictly for testing in Fedora systems.
