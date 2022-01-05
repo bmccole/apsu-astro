@@ -58,5 +58,3 @@ cd iraf
 mkiraf
 # Enter 'xterm' for terminal type
 cl
-# Remove user from sudo group after installation
-gpasswd -d "$USER" sudo
